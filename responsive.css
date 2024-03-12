@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .Food-court .topnav a:not(:first-child) {display: none;}
+    .Food-court .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Food-court .topnav.responsive {position: relative;}
+    .Food-court .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .Food-court .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
